@@ -1,0 +1,54 @@
+#include <iostream>
+
+int main(){
+    std::cout << "Переменная – это проименованная область памяти, которая может хранить какие-либо данные" << std::endl << std::endl;
+    std::cout << "Char: 1 байт; [-128, 127]" << std::endl << "-70 + 3 = ";
+    char c1 = -70;
+    char c2 = 3;
+    std::cout << c1 + c2 << std::endl;
+    std::cout << "Unsigned char: 1 байт; [0, 255]" << std::endl << "2 + 3 = ";
+    unsigned char uc1 = 2;
+    unsigned char uc2 = 3;
+    std::cout << uc1 + uc2 << std::endl;
+    std::cout << "int: 4 байта; [-2147483648, 2147483647]" << std::endl << "-812 + 800 = ";
+    int in1 = -812;
+    int in2 = 800;
+    std::cout << in1 + in2 << std::endl;
+    std::cout << "Unsigned int: 4 байта; [0, 4294967295]" << std::endl << "812 + 800 = ";
+    unsigned int uin1 = 812;
+    unsigned int uin2 = 800;
+    std::cout << in1 + in2 << std::endl;
+    std::cout << "Long long: 8 байт; [-(2^63), (2^63)-1]" << std::endl << "-1000 - (-700) = ";
+    long long l1 = -1000;
+    long long l2 = -700;
+    std::cout << l1 - l2 << std::endl;
+    std::cout << "Unsigned long long: 8 байт; [0, (2^64)-1]" << std::endl << "90 * 20 = ";
+    unsigned long long ul1 = 90;
+    unsigned long long ul2 = 20;
+    std::cout << ul1 * ul2 << std::endl;
+    std::cout << "Short: 2 байта; [-32768, 32767]" << std::endl << "20 / 10 = ";
+    short s1 = 10;
+    short s2 = 20;
+    std::cout << s2 / s1 << std::endl;
+    std::cout << "Unsigned short: 2 байта; [0, 65535]" << std::endl << "105 - 250 = ";
+    unsigned short us1 = 105;
+    unsigned short us2 = 250;
+    std::cout << us1 - us2 << std::endl;
+    std::cout << "Bool: 1 байт; [true/false]" << std::endl << "true * false = ";
+    bool b1 = true;
+    bool b2 = false;
+    std::cout << b1 * b2 << std::endl;
+    std::cout << "Float: 4 байта; [3.4 * (10^-38) , 3.4 * (10^38)]" << std::endl << "202.2 + 101.8 = ";
+    float f1 = 202.2;
+    float f2 = 101.8;
+    std::cout << f1 + f2 << std::endl;
+    std::cout << "Double: 8 байт; [1.7 * (10^-308) , 1.7 * (10^308)]" << std::endl << "900 / 1.5 = ";
+    double d1 = 900.0;
+    double d2 = 1.5;
+    std::cout << d1 / d2 << std::endl;
+    std::cout << "Wchar_t: 4 байта; [0, (2^32)-1]" << std::endl << "0 * 10102292 = ";
+    wchar_t w1 = 0;
+    wchar_t w2 = 10102292;
+    std::cout << w1 * w2 << std::endl;
+    return 0;
+}
