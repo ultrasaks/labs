@@ -42,3 +42,4 @@ Makefile
 .DS_Store
 lab_1
 *.dSYM
+code
