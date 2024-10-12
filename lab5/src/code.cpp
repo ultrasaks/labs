@@ -35,11 +35,12 @@ int main(){
 
     }else if (prog == 2){
         short otsech;
+        summ = 1;
         while (n > 0){
             otsech = n % 10;
             n = n / 10;
             if (otsech % 2 == 0){
-                summ += otsech;
+                summ *= otsech;
             }
         }
         std::cout << "Сумма четных: " << summ <<std::endl;
