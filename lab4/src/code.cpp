@@ -14,9 +14,9 @@ int main(){
         std::cin >> b;
         std::cout << "c >> ";
         std::cin >> c;
-        if (a == b && b > c) {
+        if (a % b == 0 && b > c) {
             std::cout << (1.0*a/b)+c;
-        }else if (a == b && b < c) {
+        }else if (a % b == 0 && b < c) {
             std::cout << (1.0*a/b)-c;
         }else{
             std::cout << (a+b)*c;
