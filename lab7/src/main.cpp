@@ -19,6 +19,6 @@ int main(){
     }
     Writer(matrix, n);
 
-
+    
     return 0;
 }

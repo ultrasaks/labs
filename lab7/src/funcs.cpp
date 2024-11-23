@@ -22,7 +22,7 @@ int dig_sum(int num) {
 }
 
 int elems_sum(int* matrix, short n){
-    int sum;
+    int sum = 0;
     for (short i = 0; i<n; i++) {
         sum += matrix[i];
     }
